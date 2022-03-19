@@ -1,0 +1,47 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+      <h1 class='text-warning border-bottom'> Contact </h1>
+
+      <div class="row mt-5">
+            <div class="col-sm-9">
+                  <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+
+                        <div class="mb-3 pt-3">
+                              <textarea placeholder='Your messages' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
+                      </div>
+                      <button type="button" class="btn btn-outline-warning mt-3">Submitt</button>
+            </div>
+
+            <div class="col-sm-3 text-white">
+                 <div class='text-center text-warning'>
+                  <i class="fa-solid fa-location-dot fa-2x"></i>
+                  <p>Shankar,Dhanmondi, Dhaka</p>
+
+                  <i class="fa-solid fa-phone-flip fa-2x mt-5"></i>
+                  <p>+124564854</p>
+
+                  <i class="fa-solid fa-envelope fa-2x  mt-5"></i>
+                  <p>Shukumar542@gmail.com</p>
+                 </div>
+            </div>
+      </div>
+</div>
+
+{% comment %} <div  class='text-warning text-center'>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter "></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-linkedin"></i>
+</div> {% endcomment %}
+
+{% endblock content %}

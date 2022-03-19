@@ -1,0 +1,14 @@
+{% load static %}
+<div class='border-end border-warning h-100 '>
+      <div class='text-center'>
+            <img src="{% static 'core/images/one.jpeg' %}" alt="" class='img-fluid rounded-circle mt-5' height='80px' width='80px'>
+            <h3 class='mt-3 text-white st-fonts'>Shukumar Ghosh</h3>
+      </div>
+      
+ <nav class='nav flex-column text-center'>
+       <a href="{% url 'home' %}" class="nav-link {{home}}">Home</a>
+       <a href="{% url 'service' %}" class="nav-link {{service}}">service</a>
+       <a href="{% url 'skill' %}" class="nav-link {{skill}}">Skill</a>
+       <a href="{% url 'contact' %}" class="nav-link {{contact}}">Contact</a>
+ </nav>
+</div>
